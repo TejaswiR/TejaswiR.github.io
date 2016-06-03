@@ -1,0 +1,29 @@
+.right h1{
+  font-family: 'Lobster', cursive;
+  font-style:italic;
+  color:grey;
+}
+.fa{
+  margin-left: 10px;
+  font-size: 200%;
+}
+#profile {
+  .left{
+    background-color: black;
+    height:100vh;
+
+
+    .sidebar {
+      border: 1px solid transparent;  
+      img {border-radius: 100%;}
+      text-align:center;
+      color:white;
+    }
+
+    
+  }
+  
+}
+.right p{
+  color:blue;
+}

@@ -11,10 +11,10 @@ $(document).ready(function(){
     $('.all').fadeIn(1500);
   });
 
-  $('#advid9').click(function(ev){
+  $('#GAME9').click(function(ev){
     ev.preventDefault();
     $('.all').hide();
-    $('.advid').fadeIn(1500);
+    $('.GAME').fadeIn(1500);
   });
 
   $('#psd9').click(function(ev){
@@ -23,28 +23,28 @@ $(document).ready(function(){
     $('.psd').fadeIn(1500);
   });
 
-  $('#calci9').click(function(ev){
+  // $('#calci9').click(function(ev){
+  //    ev.preventDefault();
+  //   $('.all').hide();
+  //   $('.calci').fadeIn(1500);
+  // });
+
+  $('#angular9').click(function(ev){
      ev.preventDefault();
     $('.all').hide();
-    $('.calci').fadeIn(1500);
+    $('.angular').fadeIn(1500);
   });
 
-  $('#puzzle9').click(function(ev){
-     ev.preventDefault();
-    $('.all').hide();
-    $('.puzzle').fadeIn(1500);
-  });
+  // $('#phonecat9').click(function(ev){
+  //    ev.preventDefault();
+  //   $('.all').hide();
+  //   $('.phonecat').fadeIn(1500);
+  // });
 
-  $('#jumbled9').click(function(ev){
-     ev.preventDefault();
-    $('.all').hide();
-    $('.jumbled').fadeIn(1500);
-  });
-
-  $('#psd1').click(function(){
-    bootbox.alert('<img class="img-responsive" src="../images/psd.JPG">');
+  // $('#psd1').click(function(){
+  //   bootbox.alert('<img class="img-responsive" src="../images/psd.JPG">');
     
-  });
+  // });
 
 });
 
